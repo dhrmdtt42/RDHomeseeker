@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.rdhomeseeker.dharam.rdhomeseeker.Activity.SignUpActivity"
+        android:background="@drawable/rfg"
+        >
+
+        <EditText
+            android:id="@+id/sign_up_edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:textSize="25dp"
+            android:textColorHint="@color/skyblue"
+            android:layout_marginTop="20dp"/>
+        <EditText
+
+            android:id="@+id/sign_up_edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:textColorHint="@color/skyblue"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sign_up_edt_name"
+            />
+        <EditText
+            android:id="@+id/sign_up_edt_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:textSize="25dp"
+            android:textColorHint="@color/skyblue"
+            android:layout_below="@+id/sign_up_edt_email"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            />
+        <EditText
+            android:id="@+id/sign_up_edt_cntry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Country"
+            android:textColorHint="@color/skyblue"
+            android:textSize="25dp"
+            android:layout_below="@+id/sign_up_edt_city"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            />
+        <EditText
+            android:id="@+id/sign_up_edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:textColorHint="@color/skyblue"
+            android:textSize="25dp"
+            android:layout_below="@+id/sign_up_edt_cntry"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+
+            />
+        <EditText
+            android:id="@+id/sign_up_edt_Cpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm password"
+            android:textColorHint="#f40876"
+            android:textSize="22dp"
+            android:layout_below="@+id/sign_up_edt_password"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/btn_sbmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sign_up_edt_Cpassword"
+            android:text="submit"
+            android:background="#0808ea"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="140dp"/>
+    </RelativeLayout>
+</ScrollView>
+

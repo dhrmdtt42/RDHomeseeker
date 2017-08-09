@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "79024372238",
+    "firebase_url": "https://rdhomeseeker.firebaseio.com",
+    "project_id": "rdhomeseeker",
+    "storage_bucket": "rdhomeseeker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79024372238:android:aedc223a90513b9b",
+        "android_client_info": {
+          "package_name": "com.rdhomeseeker.dharam.rdhomeseeker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79024372238-92u0m6iv4vhs3pnqa89c5js0kack4br9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rdhomeseeker.dharam.rdhomeseeker",
+            "certificate_hash": "9F4A0E74CCC658DFCFD66F777878D943FCE3DACD"
+          }
+        },
+        {
+          "client_id": "79024372238-ifmc1dcvejhkl7phgs7u4bm6j9kpjfg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqnhPX5_g3yJ7G4OYwM24sPs5tBAtrsBg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79024372238-ifmc1dcvejhkl7phgs7u4bm6j9kpjfg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
